@@ -1,4 +1,4 @@
-package br.com.tap4mobile.radio.utility;
+package com.rxjavademo.utility;
 
 /**
  * Created by Ravi Raj Priyadarshi on 31-08-2017.
@@ -31,12 +31,12 @@ public final class RxEventBusNonSticky {
     private static SparseArray<PublishSubject<Object>> sSubjectMap = new SparseArray<>();
     private static Map<Object, CompositeDisposable> sSubscriptionsMap = new HashMap<>();
 
-    public static final int SUBJECT_RADIO_PLAYER_SERVICE_EVENT = 1;
-    public static final int SUBJECT_PLAYBACK_CHANGE = 2;
-    public static final int SUBJECT_HOME_ACTIVITY_EVENT = 3;
+    public static final int SUBJECT_1 = 1;
+    public static final int SUBJECT_2 = 2;
+  
 
     @Retention(SOURCE)
-    @IntDef({SUBJECT_RADIO_PLAYER_SERVICE_EVENT, SUBJECT_PLAYBACK_CHANGE, SUBJECT_HOME_ACTIVITY_EVENT})
+    @IntDef({SUBJECT_1, SUBJECT_2})
     @interface Subject {
     }
 
