@@ -1,4 +1,4 @@
-package br.com.tap4mobile.radio.utility;
+package com.rxjavademo.utility;
 
 import org.reactivestreams.Subscription;
 
