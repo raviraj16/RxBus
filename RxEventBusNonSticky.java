@@ -1,8 +1,5 @@
 package com.rxjavademo.utility;
 
-/**
- * Created by Ravi Raj Priyadarshi on 31-08-2017.
- */
 
 import android.support.annotation.IntDef;
 import android.support.annotation.NonNull;
